@@ -8,12 +8,8 @@ using namespace std;
 
 
 int main() {
-     
-    int N,i=0;
-    cin>>N;
-    int *A = new int[N];
-    while(cin>>A[i++]);
-    while(cout<<A[--N]<<' ' and N);
-    delete[] A;
+
+   int A[5]={1,5,4,9,78};
+   cout<<--A[5]<<" "; 
     return 0;
 }

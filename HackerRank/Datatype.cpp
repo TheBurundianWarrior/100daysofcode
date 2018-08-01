@@ -1,5 +1,5 @@
 //HackerRank challenge 3
-
+//string convers all data type including the negative numbers
 #include <iostream>
 #include <cstdio>
 #include <string>

@@ -8,8 +8,9 @@ using namespace std;
 
 
 int main() {
-
-   int A[5]={1,5,4,9,78};
-   cout<<--A[5]<<" "; 
+   const int N=5;
+   int *A= new int[N];
+   A[N]={1,4,5,6,9};
+   cout<<A[--N];
     return 0;
 }
